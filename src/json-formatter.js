@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('jsonFormatter', ['RecursionHelper'])
+anguar.module('jsonFormatter', ['RecursionHelper'])
 .directive('jsonFormatter', ['RecursionHelper', function (RecursionHelper) {
   function escapeString(str) {
     return str.replace('"', '\"');
