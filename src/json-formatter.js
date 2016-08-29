@@ -3,7 +3,7 @@
 angular.module('jsonFormatter', ['RecursionHelper'])
 .directive('jsonFormatter', ['RecursionHelper', function (RecursionHelper) {
   function escapeString(str) {
-    return str.replace('"', '\"');
+
   }
 
   // From http://stackoverflow.com/a/332429
