@@ -27,7 +27,6 @@ angular.module('jsonFormatter', ['RecursionHelper'])
   }
 
   function getType(object) {
-    if (object === null) { return 'null'; }
     return typeof object;
   }
 
